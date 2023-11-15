@@ -17,7 +17,13 @@ function happyNewYear() {
   of five print "Buzz". For numbers which are multiples of both three and five,
   print "FizzBuzz".
 */
-function fizzbuzzPrinter() {
+function /* The `fizzbuzz` function takes a number as an argument and returns a string based on the
+following conditions:
+- If the number is divisible by both 3 and 5, it returns "FizzBuzz".
+- If the number is divisible by 3, it returns "Fizz".
+- If the number is divisible by 5, it returns "Buzz".
+- Otherwise, it returns the number itself. */
+fizzbuzzPrinter() {
   for (let num = 1; num <= 100; num++) {
     console.log(fizzbuzz(num));
   }
